@@ -1,0 +1,10 @@
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.deps.json
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.runtimeconfig.json
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.runtimeconfig.dev.json
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.dll
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.pdb
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.fsprojAssemblyReference.cache
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.AssemblyInfoInputs.cache
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.AssemblyInfo.fs
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.dll
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.pdb

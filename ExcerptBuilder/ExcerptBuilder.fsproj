@@ -1,0 +1,30 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+    <PropertyGroup>
+        <TargetFramework>netcoreapp2.2</TargetFramework>
+        <OutputType>Exe</OutputType>
+    </PropertyGroup>
+
+    <ItemGroup>
+        <Compile Include="Program.fs" />
+    </ItemGroup>
+
+
+    <ItemGroup>
+      <PackageReference Include="Argu" Version="5.5.0" />
+      <PackageReference Include="PDFsharp" Version="1.51.5185-beta" />
+      <PackageReference Include="runtime.unix.System.Text.Encoding.CodePages" Version="4.0.1-beta-23516" />
+      <PackageReference Include="System.Text.Encoding.CodePages" Version="4.5.1" />
+    </ItemGroup>
+
+<ItemGroup>
+  <Reference Include="System.Text.Encoding.CodePages.dll">
+    <HintPath>System.Text.Encoding.CodePages.dll</HintPath>
+    <SpecificVersion>False</SpecificVersion> 
+    <!-- You may set it to true if your dll has a specific version -->
+  </Reference>
+</ItemGroup>
+
+
+
+</Project>

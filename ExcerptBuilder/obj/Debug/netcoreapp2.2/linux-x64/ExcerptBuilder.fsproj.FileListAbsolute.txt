@@ -1,0 +1,13 @@
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/bin/Debug/netcoreapp2.2/linux-x64/libhostpolicy.so
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/bin/Debug/netcoreapp2.2/linux-x64/libhostfxr.so
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/bin/Debug/netcoreapp2.2/linux-x64/ExcerptBuilder
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/bin/Debug/netcoreapp2.2/linux-x64/ExcerptBuilder.deps.json
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/bin/Debug/netcoreapp2.2/linux-x64/ExcerptBuilder.runtimeconfig.json
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/bin/Debug/netcoreapp2.2/linux-x64/ExcerptBuilder.runtimeconfig.dev.json
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/bin/Debug/netcoreapp2.2/linux-x64/ExcerptBuilder.dll
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/bin/Debug/netcoreapp2.2/linux-x64/ExcerptBuilder.pdb
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/obj/Debug/netcoreapp2.2/linux-x64/ExcerptBuilder.fsprojAssemblyReference.cache
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/obj/Debug/netcoreapp2.2/linux-x64/ExcerptBuilder.AssemblyInfoInputs.cache
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/obj/Debug/netcoreapp2.2/linux-x64/ExcerptBuilder.AssemblyInfo.fs
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/obj/Debug/netcoreapp2.2/linux-x64/ExcerptBuilder.dll
+/home/dlt/RiderProjects/ExcerptBuilder/ExcerptBuilder/obj/Debug/netcoreapp2.2/linux-x64/ExcerptBuilder.pdb
