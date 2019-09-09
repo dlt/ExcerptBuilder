@@ -2,13 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c678d61-c079-40f0-b69c-6a5776ead469" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ExcerptBuilder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ExcerptBuilder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.fsprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.fsprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netstandard2.0/ExcerptBuilder.fsprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netstandard2.0/ExcerptBuilder.fsprojAssemblyReference.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/ExcerptBuilder.fsproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/ExcerptBuilder.fsproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/ExcerptBuilder.fsproj.nuget.g.props" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/ExcerptBuilder.fsproj.nuget.g.props" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/ExcerptBuilder.fsproj.nuget.g.targets" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/ExcerptBuilder.fsproj.nuget.g.targets" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.assets.cache" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -21,17 +15,17 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/ExcerptBuilder/Program.fs">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="92">
-              <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+            <state relative-caret-position="456">
+              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
               <folding>
-                <marker date="1568022868055" expanded="true" signature="5:65" ph="..." />
-                <marker date="1568022868055" expanded="true" signature="85:554" ph="= ..." />
-                <marker date="1568022868055" expanded="true" signature="91:220" ph="| First_Page of number:int ..." />
-                <marker date="1568022868055" expanded="true" signature="258:554" ph=" with ..." />
-                <marker date="1568022868055" expanded="true" signature="286:554" ph=" = ..." />
-                <marker date="1568022868055" expanded="true" signature="313:554" ph=" ..." />
-                <marker date="1568022868055" expanded="true" signature="711:1390" ph=" = ..." />
-                <marker date="1568022868055" expanded="true" signature="1277:1351" ph="for i in first .. last do ..." />
+                <marker date="1568025269485" expanded="false" signature="5:65" ph="..." />
+                <marker date="1568025269485" expanded="true" signature="85:554" ph="= ..." />
+                <marker date="1568025269485" expanded="true" signature="91:220" ph="| First_Page of number:int ..." />
+                <marker date="1568025269485" expanded="true" signature="258:554" ph=" with ..." />
+                <marker date="1568025269485" expanded="true" signature="286:554" ph=" = ..." />
+                <marker date="1568025269485" expanded="true" signature="313:554" ph=" ..." />
+                <marker date="1568025269485" expanded="true" signature="597:1251" ph=" = ..." />
+                <marker date="1568025269485" expanded="true" signature="1131:1205" ph="for i in first .. last do ..." />
               </folding>
             </state>
           </provider>
@@ -148,12 +142,12 @@
       <option name="presentableId" value="Default" />
       <updated>1567964064482</updated>
       <workItem from="1567964067996" duration="12987000" />
-      <workItem from="1568012920520" duration="2182000" />
+      <workItem from="1568012920520" duration="2431000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15169000" />
+    <option name="totallyTimeSpent" value="15418000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -166,9 +160,8 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23740621" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23740621" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
@@ -184,7 +177,7 @@
       <window_info anchor="bottom" id="Version Control" order="10" />
       <window_info anchor="bottom" id="Database Changes" order="11" />
       <window_info anchor="bottom" id="Unit Tests" order="12" />
-      <window_info anchor="bottom" id="Terminal" order="13" visible="true" weight="0.32893288" />
+      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.32893288" />
       <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5005359" side_tool="true" weight="0.32893288" />
       <window_info anchor="bottom" id="Build" order="15" sideWeight="0.4994641" weight="0.32893288" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
@@ -213,17 +206,17 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/ExcerptBuilder/Program.fs">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="92">
-          <caret line="14" column="51" selection-start-line="14" selection-start-column="51" selection-end-line="14" selection-end-column="51" />
+        <state relative-caret-position="456">
+          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
           <folding>
-            <marker date="1568022868055" expanded="true" signature="5:65" ph="..." />
-            <marker date="1568022868055" expanded="true" signature="85:554" ph="= ..." />
-            <marker date="1568022868055" expanded="true" signature="91:220" ph="| First_Page of number:int ..." />
-            <marker date="1568022868055" expanded="true" signature="258:554" ph=" with ..." />
-            <marker date="1568022868055" expanded="true" signature="286:554" ph=" = ..." />
-            <marker date="1568022868055" expanded="true" signature="313:554" ph=" ..." />
-            <marker date="1568022868055" expanded="true" signature="711:1390" ph=" = ..." />
-            <marker date="1568022868055" expanded="true" signature="1277:1351" ph="for i in first .. last do ..." />
+            <marker date="1568025269485" expanded="false" signature="5:65" ph="..." />
+            <marker date="1568025269485" expanded="true" signature="85:554" ph="= ..." />
+            <marker date="1568025269485" expanded="true" signature="91:220" ph="| First_Page of number:int ..." />
+            <marker date="1568025269485" expanded="true" signature="258:554" ph=" with ..." />
+            <marker date="1568025269485" expanded="true" signature="286:554" ph=" = ..." />
+            <marker date="1568025269485" expanded="true" signature="313:554" ph=" ..." />
+            <marker date="1568025269485" expanded="true" signature="597:1251" ph=" = ..." />
+            <marker date="1568025269485" expanded="true" signature="1131:1205" ph="for i in first .. last do ..." />
           </folding>
         </state>
       </provider>
