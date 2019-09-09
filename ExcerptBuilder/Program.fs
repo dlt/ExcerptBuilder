@@ -17,8 +17,6 @@ with
             | Original_Path _ -> "specify a original document path"
             | Destination_path _ -> "specify a result document path"
             
-let b = "/home/dlt/RubymineProjects/balzac/public/5d582889a6654f29036d.pdf"
-let d = "/home/dlt/balzac-exerpt.pdf"
 
 [<EntryPoint>]
 let main argv =
@@ -30,15 +28,14 @@ let main argv =
     let first = options.GetResult First_Page
     let last = options.GetResult Last_Page
     let originalPath = options.GetResult Original_Path
-    let destinationPath = options.GetResult Original_Path
+    let destinationPath = options.GetResult Destination_path
     
     let pdf = PdfReader.Open(originalPath, PdfDocumentOpenMode.Import)
-    let filename = destinationPath
     let doc = new PdfDocument()
     
     for i in first .. last do
         doc.AddPage(pdf.Pages.Item(i)) |> ignore
     
-    doc.Save(filename)
+    doc.Save(destinationPath)
     
     0 // return an integer exit code
