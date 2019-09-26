@@ -17,7 +17,7 @@
           "/usr/share/dotnet/sdk/NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "/home/dlt/.nuget/NuGet/NuGet.Config"
+          "/home/dlt/.config/NuGet/NuGet.Config"
         ],
         "originalTargetFrameworks": [
           "netcoreapp2.2"
@@ -45,20 +45,20 @@
             "Microsoft.NETCore.App": {
               "suppressParent": "All",
               "target": "Package",
-              "version": "[2.2.6, )",
+              "version": "[2.2.0, )",
               "autoReferenced": true
             },
-            "PDFsharp": {
+            "PdfSharpCore.PdfSharp": {
               "target": "Package",
-              "version": "[1.51.5185-beta, )"
+              "version": "[1.50.0-beta5-5, )"
+            },
+            "System.Drawing.Common": {
+              "target": "Package",
+              "version": "[4.5.1, )"
             },
             "System.Text.Encoding.CodePages": {
               "target": "Package",
               "version": "[4.5.1, )"
-            },
-            "runtime.unix.System.Text.Encoding.CodePages": {
-              "target": "Package",
-              "version": "[4.0.1-beta-23516, )"
             }
           },
           "imports": [
@@ -66,11 +66,6 @@
           ],
           "assetTargetFallback": true,
           "warn": true
-        }
-      },
-      "runtimes": {
-        "linux-x64": {
-          "#import": []
         }
       }
     }

@@ -1,7 +1,7 @@
 {
   "runtimeTarget": {
     "name": ".NETCoreApp,Version=v2.2",
-    "signature": "52d3269629d37d127a3477349b4d8655cb0c425c"
+    "signature": "347e7e2146d0b163e08a4182480fcb37821c553b"
   },
   "compilationOptions": {},
   "targets": {
@@ -10,9 +10,9 @@
         "dependencies": {
           "Argu": "5.5.0",
           "FSharp.Core": "4.6.2",
-          "PDFsharp": "1.51.5185-beta",
-          "System.Text.Encoding.CodePages": "4.5.1",
-          "runtime.unix.System.Text.Encoding.CodePages": "4.0.1-beta-23516"
+          "PdfSharpCore.PdfSharp": "1.50.0-beta5-5",
+          "System.Drawing.Common": "4.5.1",
+          "System.Text.Encoding.CodePages": "4.5.1"
         },
         "runtime": {
           "ExcerptBuilder.dll": {}
@@ -82,27 +82,38 @@
           }
         }
       },
-      "PDFsharp/1.51.5185-beta": {
+      "Microsoft.Win32.SystemEvents/4.5.0": {
         "runtime": {
-          "lib/net20/PdfSharp.Charting.dll": {
-            "assemblyVersion": "1.51.5185.0",
-            "fileVersion": "0.0.0.0"
-          },
-          "lib/net20/PdfSharp.dll": {
-            "assemblyVersion": "1.51.5185.0",
-            "fileVersion": "0.0.0.0"
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.0",
+            "fileVersion": "4.6.26515.6"
+          }
+        }
+      },
+      "PdfSharpCore.PdfSharp/1.50.0-beta5-5": {
+        "dependencies": {
+          "System.Drawing.Common": "4.5.1"
+        },
+        "runtime": {
+          "lib/netstandard2.0/PdfSharp.dll": {
+            "assemblyVersion": "1.50.0.0",
+            "fileVersion": "1.50.0.0"
           }
         },
         "resources": {
-          "lib/net20/de/PdfSharp.Charting.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net20/de/PdfSharp.resources.dll": {
+          "lib/netstandard2.0/de/PdfSharp.resources.dll": {
             "locale": "de"
           }
         }
       },
-      "runtime.unix.System.Text.Encoding.CodePages/4.0.1-beta-23516": {},
       "System.Configuration.ConfigurationManager/4.4.0": {
         "dependencies": {
           "System.Security.Cryptography.ProtectedData": "4.4.0"
@@ -111,6 +122,31 @@
           "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {
             "assemblyVersion": "4.0.0.0",
             "fileVersion": "4.6.25519.3"
+          }
+        }
+      },
+      "System.Drawing.Common/4.5.1": {
+        "dependencies": {
+          "Microsoft.Win32.SystemEvents": "4.5.0"
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          }
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "unix",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "rid": "win",
+            "assetType": "runtime",
+            "assemblyVersion": "4.0.0.1",
+            "fileVersion": "4.6.26919.2"
           }
         }
       },
@@ -179,19 +215,19 @@
       "path": "fsharp.core/4.6.2",
       "hashPath": "fsharp.core.4.6.2.nupkg.sha512"
     },
-    "PDFsharp/1.51.5185-beta": {
+    "Microsoft.Win32.SystemEvents/4.5.0": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-vVmehalsGF/bAahFm/z6WaHCtO4gwBx9ssP5qK1I56u88RYimXoEmkYbicFGXzvy5VC6ZrZM2AIjZOFlL6Q5EA==",
-      "path": "pdfsharp/1.51.5185-beta",
-      "hashPath": "pdfsharp.1.51.5185-beta.nupkg.sha512"
+      "sha512": "sha512-K2TAr07pgl/m/J9ed3cmAzx0SD55kYuVfBG6SPRIH/ELTh/D2qGrjOWDQJo7r+LZl1nO2Nkl0UAQBUt6S2ewqQ==",
+      "path": "microsoft.win32.systemevents/4.5.0",
+      "hashPath": "microsoft.win32.systemevents.4.5.0.nupkg.sha512"
     },
-    "runtime.unix.System.Text.Encoding.CodePages/4.0.1-beta-23516": {
+    "PdfSharpCore.PdfSharp/1.50.0-beta5-5": {
       "type": "package",
       "serviceable": true,
-      "sha512": "sha512-18KY3xsyDJuu5mTPDzbB348VnOCb4fxMXwi9bPECxu9cEFB108A+fI+jI4bdoFvT4radYY62dpwkivjCJApSdQ==",
-      "path": "runtime.unix.system.text.encoding.codepages/4.0.1-beta-23516",
-      "hashPath": "runtime.unix.system.text.encoding.codepages.4.0.1-beta-23516.nupkg.sha512"
+      "sha512": "sha512-nQgyxnG1860dN4PXg8fC5Ee9rq3jWLV0Xb8rdujEdle8hvlL8tm6o8frJJbqLeUjM9EOqMGYVrn9pzQl/FrjXg==",
+      "path": "pdfsharpcore.pdfsharp/1.50.0-beta5-5",
+      "hashPath": "pdfsharpcore.pdfsharp.1.50.0-beta5-5.nupkg.sha512"
     },
     "System.Configuration.ConfigurationManager/4.4.0": {
       "type": "package",
@@ -199,6 +235,13 @@
       "sha512": "sha512-RLYB3YOmdz9dE3zMhBFGv3GF74upGjH0nF0G9lFFRLNLsCEMIpiuQsMGv2qE0qdp1JdheVNO8RIRpUKdokiK+g==",
       "path": "system.configuration.configurationmanager/4.4.0",
       "hashPath": "system.configuration.configurationmanager.4.4.0.nupkg.sha512"
+    },
+    "System.Drawing.Common/4.5.1": {
+      "type": "package",
+      "serviceable": true,
+      "sha512": "sha512-m3c7Fe/CS/jZ/nLBrxCCh52dYiC33GPbGfcF4CiVukb8+p121XUTHxs6sYKbWfvDVD8JssHcM+HVFLtzl3X3Xw==",
+      "path": "system.drawing.common/4.5.1",
+      "hashPath": "system.drawing.common.4.5.1.nupkg.sha512"
     },
     "System.Runtime.CompilerServices.Unsafe/4.5.2": {
       "type": "package",

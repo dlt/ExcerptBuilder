@@ -259,6 +259,24 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.Win32.SystemEvents/4.5.0": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/_._": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
+        }
+      },
       "NETStandard.Library/2.0.3": {
         "type": "package",
         "dependencies": {
@@ -274,29 +292,28 @@
           "build/netstandard2.0/NETStandard.Library.targets": {}
         }
       },
-      "PDFsharp/1.51.5185-beta": {
+      "PdfSharpCore.PdfSharp/1.50.0-beta5-5": {
         "type": "package",
+        "dependencies": {
+          "System.Drawing.Common": "4.5.1"
+        },
         "compile": {
-          "lib/net20/PdfSharp.Charting.dll": {},
-          "lib/net20/PdfSharp.dll": {}
+          "lib/netstandard2.0/PdfSharp.dll": {}
         },
         "runtime": {
-          "lib/net20/PdfSharp.Charting.dll": {},
-          "lib/net20/PdfSharp.dll": {}
+          "lib/netstandard2.0/PdfSharp.dll": {}
         },
         "resource": {
-          "lib/net20/de/PdfSharp.Charting.resources.dll": {
-            "locale": "de"
-          },
-          "lib/net20/de/PdfSharp.resources.dll": {
+          "lib/netstandard2.0/de/PdfSharp.resources.dll": {
             "locale": "de"
           }
-        }
-      },
-      "runtime.unix.System.Text.Encoding.CodePages/4.0.1-beta-23516": {
-        "type": "package",
-        "compile": {
-          "ref/dotnet/_._": {}
+        },
+        "contentFiles": {
+          "contentFiles/any/netstandard2.0/SharpZipLib/ReadMe.txt": {
+            "buildAction": "Content",
+            "codeLanguage": "any",
+            "copyToOutput": false
+          }
         }
       },
       "System.Configuration.ConfigurationManager/4.4.0": {
@@ -309,6 +326,29 @@
         },
         "runtime": {
           "lib/netstandard2.0/System.Configuration.ConfigurationManager.dll": {}
+        }
+      },
+      "System.Drawing.Common/4.5.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.NETCore.Platforms": "2.0.0",
+          "Microsoft.Win32.SystemEvents": "4.5.0"
+        },
+        "compile": {
+          "ref/netstandard2.0/System.Drawing.Common.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/System.Drawing.Common.dll": {}
+        },
+        "runtimeTargets": {
+          "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "unix"
+          },
+          "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll": {
+            "assetType": "runtime",
+            "rid": "win"
+          }
         }
       },
       "System.Runtime.CompilerServices.Unsafe/4.5.2": {
@@ -761,6 +801,26 @@
         "version.txt"
       ]
     },
+    "Microsoft.Win32.SystemEvents/4.5.0": {
+      "sha512": "K2TAr07pgl/m/J9ed3cmAzx0SD55kYuVfBG6SPRIH/ELTh/D2qGrjOWDQJo7r+LZl1nO2Nkl0UAQBUt6S2ewqQ==",
+      "type": "package",
+      "path": "microsoft.win32.systemevents/4.5.0",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/net461/Microsoft.Win32.SystemEvents.dll",
+        "lib/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "microsoft.win32.systemevents.4.5.0.nupkg.sha512",
+        "microsoft.win32.systemevents.nuspec",
+        "ref/net461/Microsoft.Win32.SystemEvents.dll",
+        "ref/netstandard2.0/Microsoft.Win32.SystemEvents.dll",
+        "runtimes/win/lib/netcoreapp2.0/Microsoft.Win32.SystemEvents.dll",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
     "NETStandard.Library/2.0.3": {
       "sha512": "st47PosZSHrjECdjeIzZQbzivYBJFv6P2nv4cj2ypdI204DO+vZ7l5raGMiX4eXMJ53RfOIg+/s4DHVZ54Nu2A==",
       "type": "package",
@@ -889,34 +949,20 @@
         "netstandard.library.nuspec"
       ]
     },
-    "PDFsharp/1.51.5185-beta": {
-      "sha512": "vVmehalsGF/bAahFm/z6WaHCtO4gwBx9ssP5qK1I56u88RYimXoEmkYbicFGXzvy5VC6ZrZM2AIjZOFlL6Q5EA==",
+    "PdfSharpCore.PdfSharp/1.50.0-beta5-5": {
+      "sha512": "nQgyxnG1860dN4PXg8fC5Ee9rq3jWLV0Xb8rdujEdle8hvlL8tm6o8frJJbqLeUjM9EOqMGYVrn9pzQl/FrjXg==",
       "type": "package",
-      "path": "pdfsharp/1.51.5185-beta",
+      "path": "pdfsharpcore.pdfsharp/1.50.0-beta5-5",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
-        "lib/net20/PdfSharp.Charting.dll",
-        "lib/net20/PdfSharp.Charting.xml",
-        "lib/net20/PdfSharp.dll",
-        "lib/net20/PdfSharp.xml",
-        "lib/net20/de/PdfSharp.Charting.resources.dll",
-        "lib/net20/de/PdfSharp.resources.dll",
-        "pdfsharp.1.51.5185-beta.nupkg.sha512",
-        "pdfsharp.nuspec"
-      ]
-    },
-    "runtime.unix.System.Text.Encoding.CodePages/4.0.1-beta-23516": {
-      "sha512": "18KY3xsyDJuu5mTPDzbB348VnOCb4fxMXwi9bPECxu9cEFB108A+fI+jI4bdoFvT4radYY62dpwkivjCJApSdQ==",
-      "type": "package",
-      "path": "runtime.unix.system.text.encoding.codepages/4.0.1-beta-23516",
-      "files": [
-        ".nupkg.metadata",
-        ".signature.p7s",
-        "ref/dotnet/_._",
-        "runtime.unix.system.text.encoding.codepages.4.0.1-beta-23516.nupkg.sha512",
-        "runtime.unix.system.text.encoding.codepages.nuspec",
-        "runtimes/unix/lib/dotnet5.4/System.Text.Encoding.CodePages.dll"
+        "content/SharpZipLib/ReadMe.txt",
+        "contentFiles/any/netstandard2.0/SharpZipLib/ReadMe.txt",
+        "lib/netstandard2.0/PdfSharp.dll",
+        "lib/netstandard2.0/PdfSharp.xml",
+        "lib/netstandard2.0/de/PdfSharp.resources.dll",
+        "pdfsharpcore.pdfsharp.1.50.0-beta5-5.nupkg.sha512",
+        "pdfsharpcore.pdfsharp.nuspec"
       ]
     },
     "System.Configuration.ConfigurationManager/4.4.0": {
@@ -936,6 +982,39 @@
         "ref/netstandard2.0/System.Configuration.ConfigurationManager.xml",
         "system.configuration.configurationmanager.4.4.0.nupkg.sha512",
         "system.configuration.configurationmanager.nuspec",
+        "useSharedDesignerContext.txt",
+        "version.txt"
+      ]
+    },
+    "System.Drawing.Common/4.5.1": {
+      "sha512": "m3c7Fe/CS/jZ/nLBrxCCh52dYiC33GPbGfcF4CiVukb8+p121XUTHxs6sYKbWfvDVD8JssHcM+HVFLtzl3X3Xw==",
+      "type": "package",
+      "path": "system.drawing.common/4.5.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "LICENSE.TXT",
+        "THIRD-PARTY-NOTICES.TXT",
+        "lib/MonoAndroid10/_._",
+        "lib/MonoTouch10/_._",
+        "lib/net461/System.Drawing.Common.dll",
+        "lib/netstandard2.0/System.Drawing.Common.dll",
+        "lib/xamarinios10/_._",
+        "lib/xamarinmac20/_._",
+        "lib/xamarintvos10/_._",
+        "lib/xamarinwatchos10/_._",
+        "ref/MonoAndroid10/_._",
+        "ref/MonoTouch10/_._",
+        "ref/net461/System.Drawing.Common.dll",
+        "ref/netstandard2.0/System.Drawing.Common.dll",
+        "ref/xamarinios10/_._",
+        "ref/xamarinmac20/_._",
+        "ref/xamarintvos10/_._",
+        "ref/xamarinwatchos10/_._",
+        "runtimes/unix/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "runtimes/win/lib/netcoreapp2.0/System.Drawing.Common.dll",
+        "system.drawing.common.4.5.1.nupkg.sha512",
+        "system.drawing.common.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
       ]
@@ -1047,9 +1126,9 @@
       "Argu >= 5.5.0",
       "FSharp.Core >= 4.6.2",
       "Microsoft.NETCore.App >= 2.2.0",
-      "PDFsharp >= 1.51.5185-beta",
-      "System.Text.Encoding.CodePages >= 4.5.1",
-      "runtime.unix.System.Text.Encoding.CodePages >= 4.0.1-beta-23516"
+      "PdfSharpCore.PdfSharp >= 1.50.0-beta5-5",
+      "System.Drawing.Common >= 4.5.1",
+      "System.Text.Encoding.CodePages >= 4.5.1"
     ]
   },
   "packageFolders": {
@@ -1100,17 +1179,17 @@
             "version": "[2.2.0, )",
             "autoReferenced": true
           },
-          "PDFsharp": {
+          "PdfSharpCore.PdfSharp": {
             "target": "Package",
-            "version": "[1.51.5185-beta, )"
+            "version": "[1.50.0-beta5-5, )"
+          },
+          "System.Drawing.Common": {
+            "target": "Package",
+            "version": "[4.5.1, )"
           },
           "System.Text.Encoding.CodePages": {
             "target": "Package",
             "version": "[4.5.1, )"
-          },
-          "runtime.unix.System.Text.Encoding.CodePages": {
-            "target": "Package",
-            "version": "[4.0.1-beta-23516, )"
           }
         },
         "imports": [
@@ -1120,27 +1199,5 @@
         "warn": true
       }
     }
-  },
-  "logs": [
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'PDFsharp 1.51.5185-beta' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.2'. This package may not be fully compatible with your project.",
-      "libraryId": "PDFsharp",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.2"
-      ]
-    },
-    {
-      "code": "NU1701",
-      "level": "Warning",
-      "warningLevel": 1,
-      "message": "Package 'runtime.unix.System.Text.Encoding.CodePages 4.0.1-beta-23516' was restored using '.NETFramework,Version=v4.6.1' instead of the project target framework '.NETCoreApp,Version=v2.2'. This package may not be fully compatible with your project.",
-      "libraryId": "runtime.unix.System.Text.Encoding.CodePages",
-      "targetGraphs": [
-        ".NETCoreApp,Version=v2.2"
-      ]
-    }
-  ]
+  }
 }

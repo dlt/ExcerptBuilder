@@ -2,7 +2,22 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c678d61-c079-40f0-b69c-6a5776ead469" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/ExcerptBuilder/Dockerfile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ExcerptBuilder/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ExcerptBuilder/.idea/contentModel.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/.idea.ExcerptBuilder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ExcerptBuilder/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExcerptBuilder.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder.sln.DotSettings.user" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/ExcerptBuilder.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/ExcerptBuilder.fsproj" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/Program.fs" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.deps.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.pdb" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.assets.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.dll" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.fsprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.fsprojAssemblyReference.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.pdb" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/ExcerptBuilder.fsproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/ExcerptBuilder.fsproj.nuget.cache" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/project.assets.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -10,48 +25,35 @@
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
-  <component name="FileEditorManager">
-    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ExcerptBuilder/Program.fs">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="456">
-              <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-              <folding>
-                <marker date="1568025269485" expanded="false" signature="5:65" ph="..." />
-                <marker date="1568025269485" expanded="true" signature="85:554" ph="= ..." />
-                <marker date="1568025269485" expanded="true" signature="91:220" ph="| First_Page of number:int ..." />
-                <marker date="1568025269485" expanded="true" signature="258:554" ph=" with ..." />
-                <marker date="1568025269485" expanded="true" signature="286:554" ph=" = ..." />
-                <marker date="1568025269485" expanded="true" signature="313:554" ph=" ..." />
-                <marker date="1568025269485" expanded="true" signature="597:1251" ph=" = ..." />
-                <marker date="1568025269485" expanded="true" signature="1131:1205" ph="for i in first .. last do ..." />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExcerptBuilder/ExcerptBuilder.fsproj">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="57">
-              <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-    </leaf>
-  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4DBF8A63-21D8-43E4-BB33-80E6A412AEDE/76/cb58dd02/SafeNativeMethods.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/67/fb2f63ec/FontFactory.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/5c/046767c1/XFontSource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ExcerptBuilder/Program.fs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/01/d37e16b3/NativeMethods.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/38/edc4a8cc/PlatformFontResolver.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/fe/71097eae/GlobalFontSettings.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/2f/29897db1/XFont.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/de/f94bc084/FontHelper.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/4c/6ce9b10e/XPdfFontOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/5b/13430c17/XPrivateFontCollection.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/9a/4b1f9885/XGlyphTypeface.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/3c/cff12b7b/GlyphTypefaceCache.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4DBF8A63-21D8-43E4-BB33-80E6A412AEDE/0a/54b1c292/Font.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/ExcerptBuilder/ExcerptBuilder.fsproj" />
+        <option value="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/CBB1ACCE-47DB-4692-853D-DDF5668E1FBF/d7/84e6b85d/XFont.cs" />
+        <option value="$PROJECT_DIR$/ExcerptBuilder/Dockerfile" />
         <option value="$PROJECT_DIR$/ExcerptBuilder/Program.fs" />
       </list>
     </option>
@@ -62,42 +64,17 @@
     <option name="width" value="1400" />
     <option name="height" value="1000" />
   </component>
+  <component name="ProjectId" id="1RN91kGslgA4nGUNMzen8tbO3Sh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
-  <component name="ProjectView">
-    <navigator currentView="SolutionExplorer" proportions="" version="1">
-      <foldersAlwaysOnTop value="true" />
-    </navigator>
-    <panes>
-      <pane id="FileSystemExplorer" />
-      <pane id="SolutionExplorer">
-        <subPane>
-          <expand>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ExcerptBuilder" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-            <path>
-              <item name="" type="784c90a0:SolutionExplorerRootNode" />
-              <item name="ExcerptBuilder" type="24d0babc:SolutionExplorerModelNode" />
-              <item name="ExcerptBuilder" type="24d0babc:SolutionExplorerModelNode" />
-            </path>
-          </expand>
-          <select />
-        </subPane>
-        <option name="show-all-files" value="false" />
-      </pane>
-      <pane id="AssemblyExplorer" />
-    </panes>
-  </component>
   <component name="PropertiesComponent">
     <property name="ASKED_SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="Rider.DefaultBreakpoints.AreToggled" value="true" />
     <property name="Rider.ProjectViewActivator.IsNotFirstRun" value="true" />
-    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/linux-x64/publish/System.Text.Encoding.CodePages.dll" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -111,11 +88,11 @@
       </list>
     </option>
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected=".NET Project.Default">
     <configuration name="Default" type="DotNetProject" factoryName=".NET Project">
       <option name="EXE_PATH" value="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.dll" />
-      <option name="PROGRAM_PARAMETERS" value="--first-page 3 --last-page 13" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ExcerptBuilder" />
+      <option name="PROGRAM_PARAMETERS" value="--first-page 1 --last-page 4000 --original-path $USER_HOME$/RubymineProjects/balzac/public/1e004bc400c06f705f07.pdf --destination-path $USER_HOME$/test.pdf" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2" />
       <option name="PASS_PARENT_ENVS" value="1" />
       <option name="USE_EXTERNAL_CONSOLE" value="0" />
       <option name="USE_MONO" value="0" />
@@ -130,6 +107,50 @@
         <option name="Build" enabled="true" />
       </method>
     </configuration>
+    <configuration name="Docker" type="docker-deploy" factoryName="dockerfile" server-name="Docker">
+      <deployment type="dockerfile">
+        <settings>
+          <option name="buildCliOptions" value="" />
+          <option name="buildOnly" value="true" />
+          <option name="command" value="ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.dll" />
+          <option name="containerName" value="" />
+          <option name="entrypoint" value="" />
+          <option name="imageTag" value="" />
+          <option name="commandLineOptions" value="" />
+          <option name="sourceFilePath" value="ExcerptBuilder/Dockerfile" />
+        </settings>
+      </deployment>
+      <method v="2" />
+    </configuration>
+    <list>
+      <item itemvalue=".NET Project.Default" />
+      <item itemvalue="Docker.Docker" />
+    </list>
+  </component>
+  <component name="ServiceViewManager">
+    <option name="allServicesViewState">
+      <serviceView>
+        <treeState>
+          <expand>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@62246b96" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@62246b96" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@20a66e21" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+            <path>
+              <item name="services root" type="e789fda9:ObjectUtils$Sentinel" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@62246b96" type="9fbbdea:ServiceModel$ServiceNode" />
+              <item name="com.intellij.execution.services.ServiceModel$ServiceNode@387c336e" type="9fbbdea:ServiceModel$ServiceNode" />
+            </path>
+          </expand>
+          <select />
+        </treeState>
+      </serviceView>
+    </option>
   </component>
   <component name="SvnConfiguration">
     <configuration />
@@ -142,57 +163,31 @@
       <option name="presentableId" value="Default" />
       <updated>1567964064482</updated>
       <workItem from="1567964067996" duration="12987000" />
-      <workItem from="1568012920520" duration="2431000" />
+      <workItem from="1568012920520" duration="3085000" />
+      <workItem from="1568033090406" duration="34399000" />
+      <workItem from="1569496481885" duration="2683000" />
     </task>
     <servers />
-  </component>
-  <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="15418000" />
-  </component>
-  <component name="TodoView">
-    <todo-panel id="selected-file">
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-    <todo-panel id="all">
-      <are-packages-shown value="true" />
-      <is-autoscroll-to-source value="true" />
-    </todo-panel>
-  </component>
-  <component name="ToolWindowManager">
-    <frame x="0" y="27" width="1920" height="1053" extended-state="6" />
-    <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.23740621" />
-      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
-      <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" />
-      <window_info anchor="bottom" id="Run" order="2" sideWeight="0.4994641" weight="0.32893288" />
-      <window_info anchor="bottom" id="Debug" order="3" weight="0.39933994" />
-      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
-      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info anchor="bottom" id="NuGet" order="7" weight="0.32893288" />
-      <window_info anchor="bottom" id="Performance Profiler" order="8" />
-      <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="10" />
-      <window_info anchor="bottom" id="Database Changes" order="11" />
-      <window_info anchor="bottom" id="Unit Tests" order="12" />
-      <window_info active="true" anchor="bottom" id="Terminal" order="13" visible="true" weight="0.32893288" />
-      <window_info anchor="bottom" id="Event Log" order="14" sideWeight="0.5005359" side_tool="true" weight="0.32893288" />
-      <window_info anchor="bottom" id="Build" order="15" sideWeight="0.4994641" weight="0.32893288" />
-      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
-      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
-      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
-      <window_info anchor="right" id="Errors In Solution" order="3" />
-      <window_info anchor="right" id="Database" order="4" />
-      <window_info anchor="right" id="Unit Tests Coverage" order="5" />
-    </layout>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
   <component name="UnityProjectConfiguration" hasMinimizedUI="false" />
   <component name="UnityUnitTestConfiguration" currentTestLauncher="NUnit" />
+  <component name="Vcs.Log.Tabs.Properties">
+    <option name="TAB_STATES">
+      <map>
+        <entry key="MAIN">
+          <value>
+            <State />
+          </value>
+        </entry>
+      </map>
+    </option>
+  </component>
+  <component name="VcsManagerConfiguration">
+    <option name="LOCAL_CHANGES_DETAILS_PREVIEW_SHOWN" value="true" />
+  </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -200,33 +195,26 @@
           <properties exception="System.Threading.ThreadAbortException" displayValue="System.Threading.ThreadAbortException" />
           <option name="timeStamp" value="1" />
         </breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/2f/29897db1/XFont.cs</url>
+          <line>104</line>
+          <properties documentPath="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/2f/29897db1/XFont.cs" initialLine="104" />
+          <option name="timeStamp" value="16" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="DotNet Breakpoints">
+          <url>file://$PROJECT_DIR$/ExcerptBuilder/Program.fs</url>
+          <line>28</line>
+          <properties documentPath="$PROJECT_DIR$/ExcerptBuilder/Program.fs" initialLine="28">
+            <startOffsets>
+              <option value="821" />
+            </startOffsets>
+            <endOffsets>
+              <option value="873" />
+            </endOffsets>
+          </properties>
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
-  </component>
-  <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ExcerptBuilder/Program.fs">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="456">
-          <caret line="27" column="43" selection-start-line="27" selection-start-column="43" selection-end-line="27" selection-end-column="43" />
-          <folding>
-            <marker date="1568025269485" expanded="false" signature="5:65" ph="..." />
-            <marker date="1568025269485" expanded="true" signature="85:554" ph="= ..." />
-            <marker date="1568025269485" expanded="true" signature="91:220" ph="| First_Page of number:int ..." />
-            <marker date="1568025269485" expanded="true" signature="258:554" ph=" with ..." />
-            <marker date="1568025269485" expanded="true" signature="286:554" ph=" = ..." />
-            <marker date="1568025269485" expanded="true" signature="313:554" ph=" ..." />
-            <marker date="1568025269485" expanded="true" signature="597:1251" ph=" = ..." />
-            <marker date="1568025269485" expanded="true" signature="1131:1205" ph="for i in first .. last do ..." />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExcerptBuilder/ExcerptBuilder.fsproj">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="57">
-          <caret line="3" column="39" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
   </component>
 </project>
