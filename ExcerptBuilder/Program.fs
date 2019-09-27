@@ -6,30 +6,30 @@ open PdfSharp.Drawing
 open PdfSharp.Pdf.Annotations
 
 type CliArguments =
-    | FirstPage of number:int
-    | LastPage of number:int
-    | OriginalPath of path:string
-    | DestinationPath of path:string
+    | First_Page of number:int
+    | Last_Page of number:int
+    | Original_Path of path:string
+    | Destination_Path of path:string
 with
     interface IArgParserTemplate with
         member s.Usage =
             match s with
-            | FirstPage _ -> "specify a first page"
-            | LastPage _ -> "specify a last page"
-            | OriginalPath _ -> "specify a original document path"
-            | DestinationPath _ -> "specify a destination document path"
+            | First_Page _ -> "specify a first page"
+            | Last_Page _ -> "specify a last page"
+            | Original_Path _ -> "specify a original document path"
+            | Destination_Path _ -> "specify a destination document path"
             
 type Builder(options: ParseResults<CliArguments>) =
-     member this.originalPath = options.GetResult OriginalPath
-     member this.destinationPath = options.GetResult DestinationPath
+     member this.originalPath = options.GetResult Original_Path
+     member this.destinationPath = options.GetResult Destination_Path
      member this.originalPdf = PdfReader.Open(this.originalPath, PdfDocumentOpenMode.Import)
-     member this.first = options.GetResult FirstPage
+     member this.first = options.GetResult First_Page
      member this.last =
          let count = this.originalPdf.Pages.Count
-         if  count < options.GetResult(LastPage) then
+         if  count < options.GetResult(Last_Page) then
              count
          else
-            options.GetResult(LastPage)
+            options.GetResult(Last_Page)
             
      member this.Build() =
         let excerpt = new PdfDocument()

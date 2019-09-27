@@ -4,10 +4,6 @@
     <list default="true" id="3c678d61-c079-40f0-b69c-6a5776ead469" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ExcerptBuilder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ExcerptBuilder/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExcerptBuilder/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/Program.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.pdb" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -19,23 +15,19 @@
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="HighlightingSettingsPerFile">
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4DBF8A63-21D8-43E4-BB33-80E6A412AEDE/76/cb58dd02/SafeNativeMethods.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/67/fb2f63ec/FontFactory.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/5c/046767c1/XFontSource.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$PROJECT_DIR$/ExcerptBuilder/Program.fs" root0="FORCE_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/01/d37e16b3/NativeMethods.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/38/edc4a8cc/PlatformFontResolver.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/fe/71097eae/GlobalFontSettings.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/2f/29897db1/XFont.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/de/f94bc084/FontHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/4c/6ce9b10e/XPdfFontOptions.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5D0E3FA9-3EC6-DD75-A745-0383A93F0E5D/4/ArgumentParser.fs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/5b/13430c17/XPrivateFontCollection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/9a/4b1f9885/XGlyphTypeface.cs" root0="SKIP_HIGHLIGHTING" />
-    <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/3c/cff12b7b/GlyphTypefaceCache.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/4DBF8A63-21D8-43E4-BB33-80E6A412AEDE/0a/54b1c292/Font.cs" root0="SKIP_HIGHLIGHTING" />
   </component>
@@ -59,7 +51,7 @@
     <property name="last_opened_file_path" value="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/linux-x64/publish/System.Text.Encoding.CodePages.dll" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
-    <property name="settings.editor.selected.configurable" value="configurable.group.build" />
+    <property name="settings.editor.selected.configurable" value="zielu.gittoolbox.app.config" />
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -150,7 +142,8 @@
       <workItem from="1567964067996" duration="12987000" />
       <workItem from="1568012920520" duration="3085000" />
       <workItem from="1568033090406" duration="34399000" />
-      <workItem from="1569496481885" duration="7857000" />
+      <workItem from="1569496481885" duration="8697000" />
+      <workItem from="1569585166082" duration="2276000" />
     </task>
     <servers />
   </component>
@@ -164,7 +157,9 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="COLUMN_ORDER" />
+            </State>
           </value>
         </entry>
       </map>
