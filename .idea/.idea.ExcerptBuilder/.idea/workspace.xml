@@ -2,22 +2,12 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3c678d61-c079-40f0-b69c-6a5776ead469" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/ExcerptBuilder/Dockerfile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/.idea.ExcerptBuilder/.idea/contentModel.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ExcerptBuilder/.idea/contentModel.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/.idea.ExcerptBuilder/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/.idea.ExcerptBuilder/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder.sln.DotSettings.user" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder.sln.DotSettings.user" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/ExcerptBuilder.fsproj" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/ExcerptBuilder.fsproj" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExcerptBuilder/Program.fs" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/Program.fs" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.deps.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.deps.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.dll" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/bin/Debug/netcoreapp2.2/ExcerptBuilder.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.assets.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.assets.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.dll" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.dll" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.fsprojAssemblyReference.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.fsprojAssemblyReference.cache" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.pdb" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/Debug/netcoreapp2.2/ExcerptBuilder.pdb" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/ExcerptBuilder.fsproj.nuget.cache" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/ExcerptBuilder.fsproj.nuget.cache" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/project.assets.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/project.assets.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/ExcerptBuilder/obj/project.packagespec.json" beforeDir="false" afterPath="$PROJECT_DIR$/ExcerptBuilder/obj/project.packagespec.json" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -42,6 +32,7 @@
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/2f/29897db1/XFont.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/de/f94bc084/FontHelper.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/4c/6ce9b10e/XPdfFontOptions.cs" root0="SKIP_HIGHLIGHTING" />
+    <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/SourcesCache/5D0E3FA9-3EC6-DD75-A745-0383A93F0E5D/4/ArgumentParser.fs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/5b/13430c17/XPrivateFontCollection.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="file://$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/9a/4b1f9885/XGlyphTypeface.cs" root0="SKIP_HIGHLIGHTING" />
     <setting file="mock:///Dummy.cs" root0="FORCE_HIGHLIGHTING" />
@@ -57,12 +48,6 @@
         <option value="$PROJECT_DIR$/ExcerptBuilder/Program.fs" />
       </list>
     </option>
-  </component>
-  <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="260" />
-    <option name="y" value="53" />
-    <option name="width" value="1400" />
-    <option name="height" value="1000" />
   </component>
   <component name="ProjectId" id="1RN91kGslgA4nGUNMzen8tbO3Sh" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -165,7 +150,7 @@
       <workItem from="1567964067996" duration="12987000" />
       <workItem from="1568012920520" duration="3085000" />
       <workItem from="1568033090406" duration="34399000" />
-      <workItem from="1569496481885" duration="2683000" />
+      <workItem from="1569496481885" duration="7857000" />
     </task>
     <servers />
   </component>
@@ -200,19 +185,6 @@
           <line>104</line>
           <properties documentPath="$APPLICATION_CONFIG_DIR$/resharper-host/DecompilerCache/decompiler/D2DCDAE8-D72A-4068-8208-4E96ACBF51E2/2f/29897db1/XFont.cs" initialLine="104" />
           <option name="timeStamp" value="16" />
-        </line-breakpoint>
-        <line-breakpoint enabled="true" type="DotNet Breakpoints">
-          <url>file://$PROJECT_DIR$/ExcerptBuilder/Program.fs</url>
-          <line>28</line>
-          <properties documentPath="$PROJECT_DIR$/ExcerptBuilder/Program.fs" initialLine="28">
-            <startOffsets>
-              <option value="821" />
-            </startOffsets>
-            <endOffsets>
-              <option value="873" />
-            </endOffsets>
-          </properties>
-          <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>
